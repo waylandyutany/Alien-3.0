@@ -1,0 +1,89 @@
+<root>
+   <node name="tv_ground_0_1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/tv_ground_0_1.prfb">
+      <pos z="-205.259995" y="0.750000" x="-1.754300"/>
+      <rot y="-14.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="36.369999" y="13.400000" z="-69.290001"/>
+      <rot y="3.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1_001" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="29.021099" y="13.400000" z="-99.099998"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1_002" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="21.660000" y="13.400000" z="-128.929993"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1_003" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="14.310000" y="13.400000" z="-158.759995"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1_004" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="6.946100" y="13.400000" z="-188.589996"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p1_005" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p1.prfb">
+      <pos x="-0.380000" y="13.400000" z="-218.399994"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="skolka_1decembra" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/skolka_1decembra.prfb">
+      <pos x="-10.115800" y="3.480000" z="-53.358898"/>
+   </node>
+   <node name="bytovka_komenskeho_4p" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+      <pos x="-60.403400" y="7.200000" z="-54.630001"/>
+      <rot y="-90.000000"/>
+      <node name="bytovka_komenskeho_4p_003" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+         <pos x="-60.403400" y="7.600000" z="-241.330002"/>
+         <rot x="0.000000" y="-90.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+      <node name="bytovka_komenskeho_4p_003_001" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+         <pos x="-60.403400" y="7.600000" z="-241.330002"/>
+         <rot x="0.000000" y="-90.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+   </node>
+   <node name="bytovka_komenskeho_4p_001" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+      <pos x="-60.403400" y="7.200000" z="-103.529999"/>
+      <rot x="0.000000" y="-90.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_komenskeho_4p_002" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+      <pos x="-60.403400" y="7.200000" z="-152.429993"/>
+      <rot x="0.000000" y="-90.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_komenskeho_4p_003" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+      <pos x="-60.403400" y="7.200000" z="-201.330002"/>
+      <rot x="0.000000" y="-90.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_komenskeho_4p_004" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_komenskeho_4p.prfb">
+      <pos x="-68.449997" y="7.200000" z="-258.480011"/>
+      <rot x="0.000000" y="-104.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p.prfb">
+      <pos x="-35.338001" y="13.260000" z="-305.970001"/>
+      <rot y="-14.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p_001" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p.prfb">
+      <pos x="-13.703200" y="13.260000" z="-311.368195"/>
+      <rot x="0.000000" y="-14.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="trash_place_11x8" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/trash_place_11x8.prfb">
+      <pos x="10.390000" y="0.976300" z="-248.979996"/>
+      <rot y="-14.000000"/>
+   </node>
+   <node name="trafo_stanica_7x10" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/trafo_stanica_7x10.prfb">
+      <pos x="0.164200" y="2.660000" z="-287.769989"/>
+      <rot y="-14.000000"/>
+   </node>
+</root>

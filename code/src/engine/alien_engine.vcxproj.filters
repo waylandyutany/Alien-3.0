@@ -1,0 +1,1266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="debug_sys\output\console_output.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\file_output.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\std_output.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\outputs.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\debug_sys.cpp">
+      <Filter>debug_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\base_sys.cpp">
+      <Filter>base_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\system_info.cpp">
+      <Filter>base_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\console_output_win32.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\file_output_win32.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\output\outputs_win32.cpp">
+      <Filter>debug_sys\output</Filter>
+    </ClCompile>
+    <ClCompile Include="_sys\assert_win32.cpp">
+      <Filter>_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\memory\allocators\allocator.cpp">
+      <Filter>base_sys\memory\allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="math_sys\types_dbg.cpp">
+      <Filter>math_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_sys.cpp">
+      <Filter>render_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resource_sys.cpp">
+      <Filter>resource_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_sys\profiler\profiler.cpp">
+      <Filter>debug_sys\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_scene\render_scene.cpp">
+      <Filter>render_sys\render_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\render_device.cpp">
+      <Filter>render_sys\render_device</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\render_window.cpp">
+      <Filter>render_sys\render_device</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\render_window_dx11.cpp">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\render_device_dx11.cpp">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\render_resources_dx11.cpp">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\render_resources.cpp">
+      <Filter>render_sys\render_device</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\resources\resource_vb.cpp">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_vb_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\resources\resource_ib.cpp">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_ib_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_material_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\resources\resource_material.cpp">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\file_system\file_system.cpp">
+      <Filter>base_sys\file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\Imports\imports.cpp">
+      <Filter>resource_sys\imports</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\file_system\file_system_win32.cpp">
+      <Filter>base_sys\file_system</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada\collada_mesh_importer.cpp">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada\collada_parser.cpp">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada\collision_mesh_exporter.cpp">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\time\time_win32.cpp">
+      <Filter>base_sys\time</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_cb_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\export_pointers_table.cpp">
+      <Filter>resource_sys\imports</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_input_layout_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada_collision_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="math_sys\types.cpp">
+      <Filter>math_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\texture_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\resources\resource_texture.cpp">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_texture_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_scene\render_2d_context.cpp">
+      <Filter>render_sys\render_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_scene\render_3d_context.cpp">
+      <Filter>render_sys\render_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_structured_buffer_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_sys.cpp">
+      <Filter>audio_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\audio_device.cpp">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\xaudio2\audio_device_xaudio2.cpp">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_scene\audio_context.cpp">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_scene\audio_scene.cpp">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_scene\audio_sound.cpp">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\sound_data_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\resources\resource_sound_data.cpp">
+      <Filter>audio_sys\audio_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_codecs\wav\audio_codec_wav.cpp">
+      <Filter>audio_sys\audio_codecs\wav</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_codecs\flac\audio_codec_flac.cpp">
+      <Filter>audio_sys\audio_codecs\flac</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_codecs\ogg\audio_codec_ogg.cpp">
+      <Filter>audio_sys\audio_codecs\ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\streams\memory_seekable_input_stream.cpp">
+      <Filter>base_sys\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_scene\audio_listener.cpp">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\audio_resources.cpp">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\xaudio2\voice_callback_xaudio2.cpp">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\xaudio2\sound_render_xaudio2.cpp">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\audio_context_impl.cpp">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\audio_listener_impl.cpp">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_sys\audio_device\audio_sound_impl.cpp">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="alien_engine.cpp">
+      <Filter>render_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\input_sys.cpp">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClCompile>
+    <ClCompile Include="input_sys\dxinput8\input_dxinput8.cpp">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_window_callback.cpp">
+      <Filter>render_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\utils_dx11.cpp">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClCompile>
+    <ClCompile Include="_sys\build.cpp">
+      <Filter>_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\streams\file_input_stream.cpp">
+      <Filter>base_sys\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="base_sys\xml\xml_structs.cpp">
+      <Filter>base_sys\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\packages\packages_manager.cpp">
+      <Filter>resource_sys\packages</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\ib_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\sound_data_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\texture_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\vb_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\import_pointers_table.cpp">
+      <Filter>resource_sys\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\resource_handler.cpp">
+      <Filter>resource_sys\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\resources_manager.cpp">
+      <Filter>resource_sys\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\scene_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\scene_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_sys\scene_sys.cpp">
+      <Filter>scene_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_sys\scene\scene.cpp">
+      <Filter>scene_sys\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_effect_dx11.cpp">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_device\resources\resource_effect.cpp">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\Imports\importers\effect_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\effect_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="_sys\strings.cpp">
+      <Filter>_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\import_utils.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\prefabs_importer.cpp">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\mesh_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\collision_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_scene\render_lights.cpp">
+      <Filter>render_sys\render_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physic_sys.cpp">
+      <Filter>physic_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\imports\importers\collada\mesh_exporter.cpp">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\device\device.cpp">
+      <Filter>physic_sys\device</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\resources\resources.cpp">
+      <Filter>physic_sys\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\device\device_physx.cpp">
+      <Filter>physic_sys\physx\device</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\resources\resources_physx.cpp">
+      <Filter>physic_sys\physx\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\scene\scene_physx.cpp">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\scene\pscene.cpp">
+      <Filter>physic_sys\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="render_sys\render_scene\render_camera.cpp">
+      <Filter>render_sys\render_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="math_sys\utils.cpp">
+      <Filter>math_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\scene\static_actor_physx.cpp">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\scene\dynamic_actor_physx.cpp">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\scene\actor.cpp">
+      <Filter>physic_sys\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\scene\dynamic_actor.cpp">
+      <Filter>physic_sys\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\scene\static_actor.cpp">
+      <Filter>physic_sys\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="physic_sys\physx\utils_physx.cpp">
+      <Filter>physic_sys\physx</Filter>
+    </ClCompile>
+    <ClCompile Include="math_sys\floats\float4x4.cpp">
+      <Filter>math_sys\floats</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_sys\scene_prefabs\scene_prefabs.cpp">
+      <Filter>scene_sys\scene_prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_sys\resources\handlers\scene_prefabs_handler.cpp">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="_sys\build.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\console_output.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\file_output.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\std_output.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\outputs.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\system_info.h">
+      <Filter>base_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\base_sys.h">
+      <Filter>base_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\debug_sys.h">
+      <Filter>debug_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\parser\base_parser_rules.h">
+      <Filter>base_sys\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\parser\parser.h">
+      <Filter>base_sys\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\parser\parser_input_stream.h">
+      <Filter>base_sys\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\types.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\console_output_win32.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\output\file_output_win32.h">
+      <Filter>debug_sys\output</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\assert.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\assert_win32.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\memory\allocators\allocator.h">
+      <Filter>base_sys\memory\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\types.h">
+      <Filter>math_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\types_dbg.h">
+      <Filter>math_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_sys.h">
+      <Filter>render_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resource_sys.h">
+      <Filter>resource_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_sys\profiler\profiler.h">
+      <Filter>debug_sys\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_scene\render_scene.h">
+      <Filter>render_sys\render_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\hash.h">
+      <Filter>base_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\endian_swap.h">
+      <Filter>base_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\lib_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\pch_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\pch.h">
+      <Filter>render_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\pch.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="render_sys\render_device\render_device.h">
+      <Filter>render_sys\render_device</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\render_window.h">
+      <Filter>render_sys\render_device</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\input_sys.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\render_window_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\render_device_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\render_resources_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\render_resources.h">
+      <Filter>render_sys\render_device</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\utils_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_vb.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_vb_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_ib.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_ib_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_material_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_material.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\file_system\file_system.h">
+      <Filter>base_sys\file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\Imports\imports.h">
+      <Filter>resource_sys\imports</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada\collada_mesh_importer.h">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada\collada_parser.h">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada\collision_mesh_exporter.h">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\time\time.h">
+      <Filter>base_sys\time</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\key_codes.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\pch.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_cb_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\export_pointers_table.h">
+      <Filter>resource_sys\imports</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_input_layout_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada_collision_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\templates.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\collision\separating_axes.h">
+      <Filter>math_sys\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\collision\box_to_triangle.h">
+      <Filter>math_sys\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\collision\elipsoid_to_triangle.h">
+      <Filter>math_sys\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\texture_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_texture.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_texture_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_scene\render_2d_context.h">
+      <Filter>render_sys\render_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_scene\render_3d_context.h">
+      <Filter>render_sys\render_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_structured_buffer_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\constants_dx11.h">
+      <Filter>render_sys\render_device\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\pch.h">
+      <Filter>audio_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\xaudio2\lib_xaudio2.h">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\xaudio2\pch_xaudio2.h">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\dxinput8\input_dxinput8.h">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\dxinput8\input_utils_dxinput8.h">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\dxinput8\lib_dxinput8.h">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\dxinput8\pch_dxinput8.h">
+      <Filter>input_sys\dxinput8</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_device.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\xaudio2\audio_device_xaudio2.h">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_scene\audio_context.h">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_scene\audio_scene.h">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_scene\audio_sound.h">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\sound_data_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\resources\resource_sound_data.h">
+      <Filter>audio_sys\audio_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_sys.h">
+      <Filter>audio_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_codecs\i_audio_codec.h">
+      <Filter>audio_sys\audio_codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_codecs\wav\audio_codec_wav.h">
+      <Filter>audio_sys\audio_codecs\wav</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_codecs\flac\audio_codec_flac.h">
+      <Filter>audio_sys\audio_codecs\flac</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_codecs\ogg\audio_codec_ogg.h">
+      <Filter>audio_sys\audio_codecs\ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\streams\i_input_stream.h">
+      <Filter>base_sys\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\streams\i_seekable_input_stream.h">
+      <Filter>base_sys\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\streams\memory_seekable_input_stream.h">
+      <Filter>base_sys\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_scene\audio_listener.h">
+      <Filter>audio_sys\audio_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_resources.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_sys_init.h">
+      <Filter>audio_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\xaudio2\voice_callback_xaudio2.h">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_sound_render_request.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_data_stream.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\xaudio2\sound_render_xaudio2.h">
+      <Filter>audio_sys\audio_device\xaudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\weak_ptr.h">
+      <Filter>base_sys\ptrs</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\smart_ptr.h">
+      <Filter>base_sys\ptrs</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_data_info.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_context_impl.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_listener_impl.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_sound_impl.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_object_impl.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\context_render_params.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\listener_render_params.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\sound_render_params.h">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_sys\audio_device\audio_data_stream_notify.h">
+      <Filter>audio_sys\audio_device</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\memory\allocators\incremental_allocator.h">
+      <Filter>base_sys\memory\allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\memory\reusable_buffers.h">
+      <Filter>base_sys\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_sys_init.h">
+      <Filter>render_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\input_sys_init.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="input_sys\input_window_callback.h">
+      <Filter>input_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_window_callback.h">
+      <Filter>render_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\cfg.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\xml\xml.h">
+      <Filter>base_sys\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\xml\xml_editable.h">
+      <Filter>base_sys\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\xml\xml_text_reader.h">
+      <Filter>base_sys\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\streams\file_input_stream.h">
+      <Filter>base_sys\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\xml\xml_structs.h">
+      <Filter>base_sys\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="base_sys\xml\xml_text_writer.h">
+      <Filter>base_sys\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\packages\packages_manager.h">
+      <Filter>resource_sys\packages</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\ib_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\sound_data_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\texture_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\vb_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\import_pointers_table.h">
+      <Filter>resource_sys\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\resource_handler.h">
+      <Filter>resource_sys\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\resources_manager.h">
+      <Filter>resource_sys\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resource.h">
+      <Filter>resource_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\package.h">
+      <Filter>resource_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resource_types.h">
+      <Filter>resource_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\scene_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\scene_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene_sys.h">
+      <Filter>scene_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene\scene.h">
+      <Filter>scene_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene\scene_resource.h">
+      <Filter>scene_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_effect_dx11.h">
+      <Filter>render_sys\render_device\dx11\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_effect.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\Imports\importers\effect_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\effect_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\strings.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\import_utils.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\prefabs_importer.h">
+      <Filter>resource_sys\imports\importers</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_device\resources\resource_mesh.h">
+      <Filter>render_sys\render_device\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\mesh_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\collision_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_scene\render_lights.h">
+      <Filter>render_sys\render_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene\lights.h">
+      <Filter>scene_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\edit\effects\frame_consts.h">
+      <Filter>render_sys\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\edit\effects\samplers.h">
+      <Filter>render_sys\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\edit\effects\screen_quad_gs.h">
+      <Filter>render_sys\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\pch.h">
+      <Filter>physic_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physic_sys_init.h">
+      <Filter>physic_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physic_sys.h">
+      <Filter>physic_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\edit\effects\lights.h">
+      <Filter>render_sys\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\imports\importers\collada\mesh_exporter.h">
+      <Filter>resource_sys\imports\importers\collada</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\lib_physx.h">
+      <Filter>physic_sys\physx</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\pch_physx.h">
+      <Filter>physic_sys\physx</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\utils_physx.h">
+      <Filter>physic_sys\physx</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\device\device.h">
+      <Filter>physic_sys\device</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\resources\resources.h">
+      <Filter>physic_sys\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\device\device_physx.h">
+      <Filter>physic_sys\physx\device</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\resources\resources_physx.h">
+      <Filter>physic_sys\physx\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\scene\scene_physx.h">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\scene.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\resources\resource_collision.h">
+      <Filter>physic_sys\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="_sys\build_check.h">
+      <Filter>_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="render_sys\render_scene\render_camera.h">
+      <Filter>render_sys\render_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\utils.h">
+      <Filter>math_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\collision_params.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\collision_objects.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\scene\static_actor_physx.h">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\physx\scene\dynamic_actor_physx.h">
+      <Filter>physic_sys\physx\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\actor.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\dynamic_actor.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="physic_sys\scene\static_actor.h">
+      <Filter>physic_sys\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\plane.h">
+      <Filter>math_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float3.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float_constants.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\pch.h">
+      <Filter>math_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float2.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float4.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float4x4.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float2x2.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\floats\float3x3.h">
+      <Filter>math_sys\floats</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\collision\collision.h">
+      <Filter>math_sys\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="math_sys\collision\collision_types.h">
+      <Filter>math_sys\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene_prefabs\scene_prefabs.h">
+      <Filter>scene_sys\scene_prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_sys\scene_prefabs\scene_prefabs_resource.h">
+      <Filter>scene_sys\scene_prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_sys\resources\handlers\scene_prefabs_handler.h">
+      <Filter>resource_sys\resources\handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_sys">
+      <UniqueIdentifier>{f0f672ef-9303-48e3-965d-1d3d2cca6452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_sys">
+      <UniqueIdentifier>{d9a9d364-a5b5-4fbb-92c8-222adf290313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_sys\output">
+      <UniqueIdentifier>{79d19b26-6a54-40b1-925f-ff85fb326cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math_sys">
+      <UniqueIdentifier>{65118eb3-625f-49c6-8d90-3bcb0512037c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys">
+      <UniqueIdentifier>{fc1def22-162b-4c99-9bb8-bea39ddc3f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_sys\profiler">
+      <UniqueIdentifier>{fb80b458-8ef5-4780-808d-c607191837e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\render_scene">
+      <UniqueIdentifier>{43e47ae8-9e96-4086-91e1-8c08e2e1483a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\render_device">
+      <UniqueIdentifier>{d6514423-c623-4259-bc64-c5f692058c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\render_device\dx11">
+      <UniqueIdentifier>{e98f09c9-8150-4262-b477-500ddecdccb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\render_device\resources">
+      <UniqueIdentifier>{4de2a475-9e11-4036-b0fb-267822b8f4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\render_device\dx11\resources">
+      <UniqueIdentifier>{b78a9225-b194-4372-bf01-e739e7ab9d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math_sys\collision">
+      <UniqueIdentifier>{51cc52f9-92a8-435c-aa32-eb6f8de93960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys">
+      <UniqueIdentifier>{38d2db74-ab70-464b-983a-5f25f17203bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_device">
+      <UniqueIdentifier>{03029036-dbe4-47f2-bdc3-fcf4dbf28bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_device\xaudio2">
+      <UniqueIdentifier>{c3b848f1-77ec-44cf-9ef6-b92c927a0104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_device\resources">
+      <UniqueIdentifier>{d28c381e-6ee1-48b4-8752-f2a48635fc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_scene">
+      <UniqueIdentifier>{73eddc7d-7d12-40c0-a246-5f00df01e0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_codecs">
+      <UniqueIdentifier>{efa06ce8-6f9f-4506-91e9-99ba5add9bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_codecs\flac">
+      <UniqueIdentifier>{4867ffbd-cdaf-48e7-b98f-7a31b70b765c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_codecs\ogg">
+      <UniqueIdentifier>{5f524f58-f1cf-494b-9b36-9601168b3867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_codecs\wav">
+      <UniqueIdentifier>{6c17f04f-cabd-4a64-86e0-f5a11c15c0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input_sys">
+      <UniqueIdentifier>{d548b5ac-55dd-43e5-8eef-66e52ff5e1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input_sys\dxinput8">
+      <UniqueIdentifier>{b4611e83-3d82-4eae-851e-812fbb2fb47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_sys\audio_device\audio_objects">
+      <UniqueIdentifier>{9d163556-8fd2-4447-8d0f-a4dd6825146d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys">
+      <UniqueIdentifier>{e26ec419-3815-473d-94cd-b9108ae4f565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\imports">
+      <UniqueIdentifier>{70749dda-c078-4eaf-a3f6-29bb66e25e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\imports\importers">
+      <UniqueIdentifier>{b0f75151-0a6f-4255-88b4-8754f7b17b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\imports\importers\collada">
+      <UniqueIdentifier>{4d026f3e-7163-45e4-86cb-0fe479503d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys">
+      <UniqueIdentifier>{8df3ba69-3a4e-4a15-a00c-e7dc44d8d78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\parser">
+      <UniqueIdentifier>{8d64cf47-e5de-4295-b346-3269b67216e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\file_system">
+      <UniqueIdentifier>{7ea8847f-830f-4f21-9b40-1e04cdb037ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\time">
+      <UniqueIdentifier>{f7f0054d-b319-43d7-bfa7-6e94e2de8e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\streams">
+      <UniqueIdentifier>{81a1bd97-785c-42a8-8c2a-17cda8b3303f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\ptrs">
+      <UniqueIdentifier>{61b0bbd0-1733-45ac-95a1-affc068b44b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\memory">
+      <UniqueIdentifier>{ea979141-2437-4601-9cee-1ceb2cb3c605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\memory\allocators">
+      <UniqueIdentifier>{d069f905-58f3-4ac3-b9a2-08001119dd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base_sys\xml">
+      <UniqueIdentifier>{4cab931a-8a75-41a4-8086-5af1c0c7dcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\packages">
+      <UniqueIdentifier>{d5a4b111-ee4a-4e92-afe4-12ba3702f150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\resources">
+      <UniqueIdentifier>{f5ac0ca6-851e-4d9f-9fe5-eeb53eb1b93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource_sys\resources\handlers">
+      <UniqueIdentifier>{d7f41d87-c63c-4107-989d-041a10b3918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene_sys">
+      <UniqueIdentifier>{b1469f4c-98ca-4707-b9a5-1f2fffc0f196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene_sys\scene">
+      <UniqueIdentifier>{9b4df686-35dc-4da5-a9d8-d3717cb610b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render_sys\effects">
+      <UniqueIdentifier>{4c5e0670-afe1-4552-b066-817ff26aea02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys">
+      <UniqueIdentifier>{6e222064-4ec4-49a3-9ac5-8c404bb11c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\physx">
+      <UniqueIdentifier>{9de253ed-b69d-4e46-847b-21f98feb172a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\device">
+      <UniqueIdentifier>{75a7e65c-bbbf-4080-a59f-396eee13ecf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\resources">
+      <UniqueIdentifier>{ec122922-1f6b-471e-89f0-f00e1574880b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\scene">
+      <UniqueIdentifier>{a27770a8-a16b-4d39-a7b4-a0c1463efc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\physx\device">
+      <UniqueIdentifier>{cde63fea-7a05-4440-9a0e-539434423828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\physx\resources">
+      <UniqueIdentifier>{7cf407bb-91d1-41df-8d29-2f4320a57009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physic_sys\physx\scene">
+      <UniqueIdentifier>{10703b74-0948-4c79-947c-60736eb2033a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math_sys\floats">
+      <UniqueIdentifier>{57bd48a5-0606-4cac-867a-3be933becef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene_sys\scene_prefabs">
+      <UniqueIdentifier>{8a439acd-bd7b-4a82-9841-fa9e67f8af65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_sys\svn_revision.template">
+      <Filter>_sys</Filter>
+    </None>
+    <None Include="base_sys\parser\base_parser_rules.inl">
+      <Filter>base_sys\parser</Filter>
+    </None>
+    <None Include="base_sys\parser\parser.inl">
+      <Filter>base_sys\parser</Filter>
+    </None>
+    <None Include="base_sys\parser\parser_input_stream.inl">
+      <Filter>base_sys\parser</Filter>
+    </None>
+    <None Include="base_sys\hash.inl">
+      <Filter>base_sys</Filter>
+    </None>
+    <None Include="base_sys\endian_swap.inl">
+      <Filter>base_sys</Filter>
+    </None>
+    <None Include="input_sys\input_sys.inl">
+      <Filter>input_sys</Filter>
+    </None>
+    <None Include="_sys\templates.inl">
+      <Filter>_sys</Filter>
+    </None>
+    <None Include="math_sys\types.inl">
+      <Filter>math_sys</Filter>
+    </None>
+    <None Include="math_sys\collision\separating_axes.inl">
+      <Filter>math_sys\collision</Filter>
+    </None>
+    <None Include="math_sys\collision\box_to_triangle.inl">
+      <Filter>math_sys\collision</Filter>
+    </None>
+    <None Include="math_sys\collision\elipsoid_to_triangle.inl">
+      <Filter>math_sys\collision</Filter>
+    </None>
+    <None Include="base_sys\time\time_win32.inl">
+      <Filter>base_sys\time</Filter>
+    </None>
+    <None Include="base_sys\memory\allocators\incremental_allocator.inl">
+      <Filter>base_sys\memory\allocators</Filter>
+    </None>
+    <None Include="debug_sys\profiler\profiler.inl">
+      <Filter>debug_sys\profiler</Filter>
+    </None>
+    <None Include="input_sys\dxinput8\input_dxinput8.inl">
+      <Filter>input_sys\dxinput8</Filter>
+    </None>
+    <None Include="audio_sys\audio_scene\audio_sound.inl">
+      <Filter>audio_sys\audio_scene</Filter>
+    </None>
+    <None Include="audio_sys\audio_scene\audio_context.inl">
+      <Filter>audio_sys\audio_scene</Filter>
+    </None>
+    <None Include="audio_sys\audio_scene\audio_listener.inl">
+      <Filter>audio_sys\audio_scene</Filter>
+    </None>
+    <None Include="base_sys\weak_ptr.inl">
+      <Filter>base_sys\ptrs</Filter>
+    </None>
+    <None Include="base_sys\smart_ptr.inl">
+      <Filter>base_sys\ptrs</Filter>
+    </None>
+    <None Include="audio_sys\audio_device\audio_context_impl.inl">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </None>
+    <None Include="audio_sys\audio_device\audio_listener_impl.inl">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </None>
+    <None Include="audio_sys\audio_device\audio_sound_impl.inl">
+      <Filter>audio_sys\audio_device\audio_objects</Filter>
+    </None>
+    <None Include="base_sys\memory\reusable_buffers.inl">
+      <Filter>base_sys\memory</Filter>
+    </None>
+    <None Include="base_sys\xml\xml.inl">
+      <Filter>base_sys\xml</Filter>
+    </None>
+    <None Include="base_sys\xml\xml_editable.inl">
+      <Filter>base_sys\xml</Filter>
+    </None>
+    <None Include="base_sys\xml\xml_text_reader.inl">
+      <Filter>base_sys\xml</Filter>
+    </None>
+    <None Include="base_sys\xml\xml_structs.inl">
+      <Filter>base_sys\xml</Filter>
+    </None>
+    <None Include="base_sys\xml\xml_text_writer.inl">
+      <Filter>base_sys\xml</Filter>
+    </None>
+    <None Include="resource_sys\resources\resource_handler.inl">
+      <Filter>resource_sys\resources</Filter>
+    </None>
+    <None Include="resource_sys\resources\resources_manager.inl">
+      <Filter>resource_sys\resources</Filter>
+    </None>
+    <None Include="resource_sys\imports\imports.inl">
+      <Filter>resource_sys\imports</Filter>
+    </None>
+    <None Include="scene_sys\scene\lights.inl">
+      <Filter>scene_sys\scene</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\dfr_compose.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\dfr_lighting.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\simple_2d.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\simple_3d_solid.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\simple_3d_wired.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\solid_dn_3d.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\stencil_shadows.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="..\..\..\edit\effects\shadow_map.fx">
+      <Filter>render_sys\effects</Filter>
+    </None>
+    <None Include="physic_sys\physx\utils_physx.inl">
+      <Filter>physic_sys\physx</Filter>
+    </None>
+    <None Include="math_sys\utils.inl">
+      <Filter>math_sys</Filter>
+    </None>
+    <None Include="physic_sys\scene\scene.inl">
+      <Filter>physic_sys\scene</Filter>
+    </None>
+    <None Include="physic_sys\physx\scene\dynamic_actor_physx.inl">
+      <Filter>physic_sys\physx\scene</Filter>
+    </None>
+    <None Include="physic_sys\scene\actor.inl">
+      <Filter>physic_sys\scene</Filter>
+    </None>
+    <None Include="physic_sys\scene\dynamic_actor.inl">
+      <Filter>physic_sys\scene</Filter>
+    </None>
+    <None Include="physic_sys\scene\static_actor.inl">
+      <Filter>physic_sys\scene</Filter>
+    </None>
+    <None Include="math_sys\plane.inl">
+      <Filter>math_sys</Filter>
+    </None>
+    <None Include="math_sys\floats\float3.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\floats\float2.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\floats\float4.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\floats\float4x4.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\floats\float2x2.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\floats\float3x3.inl">
+      <Filter>math_sys\floats</Filter>
+    </None>
+    <None Include="math_sys\collision\collision.inl">
+      <Filter>math_sys\collision</Filter>
+    </None>
+    <None Include="math_sys\collision\collision_types.inl">
+      <Filter>math_sys\collision</Filter>
+    </None>
+  </ItemGroup>
+</Project>

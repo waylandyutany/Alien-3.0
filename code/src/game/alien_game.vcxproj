@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|Win32">
+      <Configuration>Develop</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|x64">
+      <Configuration>Develop</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7A0D5DA-06B7-421B-AD0B-54DB1FFABEAE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>alien_game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(SolutionDir)..\..\out\$(Platform)\;G:\Projects\Qt_4.8.0\lib;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN32;_DEBUG;_CONSOLE;AE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib;libcmt.lib</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN64;_DEBUG;_CONSOLE;AE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmtd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN32;NDEBUG;_CONSOLE;AE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN64;NDEBUG;_CONSOLE;AE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;NDEBUG;_CONSOLE;AE_DEVELOP;%(PreprocessorDefinitions);AE_PLATFORM_WIN32;AE_DEVELOP</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;NDEBUG;_CONSOLE;AE_DEVELOP;%(PreprocessorDefinitions);AE_PLATFORM_WIN64;AE_DEVELOP</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <ForcedIncludeFiles>../engine/_sys/build.h</ForcedIncludeFiles>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(SolutionDir)..\..\..\bin\$(Platform)\$(TargetName)_$(Configuration).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>$(SolutionDir)..\..\out\$(Platform)\alien_engine_$(Configuration)_$(Platform).lib;$(SolutionDir)..\..\out\$(Platform)\alien_editor_$(Configuration)_$(Platform).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="entities\dynobject\dyn_object.h" />
+    <ClInclude Include="entities\entities.h" />
+    <ClInclude Include="entities\entity.h" />
+    <ClInclude Include="entities\hud\hud.h" />
+    <ClInclude Include="entities\player\player.h" />
+    <ClInclude Include="entities\projectiles\projectile.h" />
+    <ClInclude Include="init\editor_init.h" />
+    <ClInclude Include="init\engine_init.h" />
+    <ClInclude Include="init\game_init.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entities\dynobject\dyn_object.cpp" />
+    <ClCompile Include="entities\entities.cpp" />
+    <ClCompile Include="entities\entity.cpp" />
+    <ClCompile Include="entities\hud\hud.cpp" />
+    <ClCompile Include="entities\player\player.cpp" />
+    <ClCompile Include="entities\projectiles\projectile.cpp" />
+    <ClCompile Include="init\alien_game.cpp" />
+    <ClCompile Include="init\editor_init.cpp" />
+    <ClCompile Include="init\engine_init.cpp" />
+    <ClCompile Include="init\game_init.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="todo_list.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

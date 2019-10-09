@@ -1,0 +1,30 @@
+<root>
+   <dir name="models">
+      <src name="tv_buildings" type="mesh">
+         <path path="/edit/3d_models/tv_buildings/fbx/tv_buildings.dae"/>
+      </src>
+      <src name="tv_buildings" type="coll">
+         <path path="/edit/3d_models/tv_buildings/fbx/tv_buildings.dae"/>
+      </src>
+      <src name="objects" type="mesh">
+         <path path="/edit/3d_models/objects/fbx/objects.dae"/>
+      </src>
+      <src name="tv_ground" type="mesh">
+         <path path="/edit/3d_models/tv_ground/fbx/tv_ground.dae"/>
+      </src>
+      <src name="tv_ground" type="coll">
+         <path path="/edit/3d_models/tv_ground/fbx/tv_ground.dae"/>
+      </src>
+   </dir>
+   <dir name="scene">
+      <src name="tv_block_0_0" type="scen">
+         <path path="/edit/scenes/tv_block_0_0.scene"/>
+      </src>
+      <src name="tv_buildings" type="pfbs">
+         <path path="/edit/scenes/tv_buildings.prefabs"/>
+      </src>
+      <src name="tv_block_0_1" type="scen">
+         <path path="/edit/scenes/tv_block_0_1.scene"/>
+      </src>
+   </dir>
+</root>

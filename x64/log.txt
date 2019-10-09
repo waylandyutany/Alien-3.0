@@ -1,0 +1,35 @@
+Engine name     : Alien Engine Win64 3.0
+Revision number : 1168
+Revision date   : 2014/02/06 14:09:08
+Repository URL  : file:///Y:/repository/alien/code/
+'DirectX11' render system initializing...
+  Adapters :
+  Adapter name 'NVIDIA GeForce GTX 980 Ti' VendorId : 4318 DeviceId : 6088 SubSysId : 1234516034 Revision : 161
+  Memory Video : 6097MB System : 0MB Shared : 16338MB
+    Output name '\\.\DISPLAY1' 
+  Adapter name 'Microsoft Basic Render Driver' VendorId : 5140 DeviceId : 140 SubSysId : 0 Revision : 0
+  Memory Video : 0MB System : 0MB Shared : 16338MB
+'DirectX11' render system initialized.
+'PhysX 3.2.3' Physics system initializing...
+'PhysX 3.2.3' Physics system initialized.
+'DirectInput8' input system initialized.
+'XAudio2' audio system initializing...
+Allocating buffers for audio codecs. Total bytes 3145728
+    3DMono   buffers : 32 Bytes per buffer : 65536 Total bytes : 2097152
+    2DStereo buffers : 16 Bytes per buffer : 65536 Total bytes : 1048576
+'XAudio2' device info :
+  Name     : Speakers (Realtek High Definition Audio)
+  Channels : 2 BPS : 32 Frequency : 48000
+'XAudio2' audio system initialized.
+Mounting '../../edit' as '/edit'
+Mounting '../../data/tmp_resources/win64' as '/resources'
+Mounting 'packages' as '/packages'
+Invalid 'default' package !
+Invalid 'tv_buildings' package !
+'XAudio2' audio system releasing...
+'XAudio2' audio system released.
+'DirectInput8' input system released.
+'PhysX' Physics system releasing...
+'PhysX' Physics system released.
+'DirectX11' render system releasing...
+'DirectX11' render system released.

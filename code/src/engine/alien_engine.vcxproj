@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|Win32">
+      <Configuration>Develop</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|x64">
+      <Configuration>Develop</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{047270A6-B09B-414B-BC16-246E4EAAF8F7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>alien_engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.3/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(SolutionDir)..\..\out\;$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN32;_DEBUG;_CONSOLE;AE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN64;_DEBUG;_CONSOLE;AE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN32;NDEBUG;_CONSOLE;AE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN64;NDEBUG;_CONSOLE;AE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;NDEBUG;_CONSOLE;AE_DEVELOP;%(PreprocessorDefinitions);AE_PLATFORM_WIN32;AE_DEVELOP</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;NDEBUG;_CONSOLE;AE_DEVELOP;%(PreprocessorDefinitions);AE_PLATFORM_WIN64;AE_DEVELOP</PreprocessorDefinitions>
+      <ForcedIncludeFiles>_sys/build.h;_sys/cfg.h</ForcedIncludeFiles>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"c:/Program Files/TortoiseSVN/bin/SubWCRev.exe" "$(SolutionDir)../../" "$(SolutionDir)../engine/_sys/svn_revision.template" "$(SolutionDir)../engine/_sys/svn_revision.h"
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\edit\effects\dfr_compose.fx" />
+    <None Include="..\..\..\edit\effects\dfr_lighting.fx" />
+    <None Include="..\..\..\edit\effects\shadow_map.fx" />
+    <None Include="..\..\..\edit\effects\simple_2d.fx" />
+    <None Include="..\..\..\edit\effects\simple_3d_solid.fx" />
+    <None Include="..\..\..\edit\effects\simple_3d_wired.fx" />
+    <None Include="..\..\..\edit\effects\solid_dn_3d.fx" />
+    <None Include="..\..\..\edit\effects\stencil_shadows.fx" />
+    <None Include="audio_sys\audio_device\audio_context_impl.inl" />
+    <None Include="audio_sys\audio_device\audio_listener_impl.inl" />
+    <None Include="audio_sys\audio_device\audio_sound_impl.inl" />
+    <None Include="audio_sys\audio_scene\audio_context.inl" />
+    <None Include="audio_sys\audio_scene\audio_listener.inl" />
+    <None Include="audio_sys\audio_scene\audio_sound.inl" />
+    <None Include="base_sys\endian_swap.inl" />
+    <None Include="base_sys\hash.inl" />
+    <None Include="base_sys\memory\allocators\incremental_allocator.inl" />
+    <None Include="base_sys\memory\reusable_buffers.inl" />
+    <None Include="base_sys\parser\base_parser_rules.inl" />
+    <None Include="base_sys\parser\parser.inl" />
+    <None Include="base_sys\parser\parser_input_stream.inl" />
+    <None Include="base_sys\smart_ptr.inl" />
+    <None Include="base_sys\time\time_win32.inl" />
+    <None Include="base_sys\weak_ptr.inl" />
+    <None Include="base_sys\xml\xml.inl" />
+    <None Include="base_sys\xml\xml_editable.inl" />
+    <None Include="base_sys\xml\xml_structs.inl" />
+    <None Include="base_sys\xml\xml_text_reader.inl" />
+    <None Include="base_sys\xml\xml_text_writer.inl" />
+    <None Include="debug_sys\profiler\profiler.inl" />
+    <None Include="input_sys\dxinput8\input_dxinput8.inl" />
+    <None Include="input_sys\input_sys.inl" />
+    <None Include="math_sys\collision\box_to_triangle.inl" />
+    <None Include="math_sys\collision\collision.inl" />
+    <None Include="math_sys\collision\collision_types.inl" />
+    <None Include="math_sys\collision\elipsoid_to_triangle.inl" />
+    <None Include="math_sys\collision\separating_axes.inl" />
+    <None Include="math_sys\floats\float2.inl" />
+    <None Include="math_sys\floats\float2x2.inl" />
+    <None Include="math_sys\floats\float3.inl" />
+    <None Include="math_sys\floats\float3x3.inl" />
+    <None Include="math_sys\floats\float4.inl" />
+    <None Include="math_sys\floats\float4x4.inl" />
+    <None Include="math_sys\plane.inl" />
+    <None Include="math_sys\types.inl" />
+    <None Include="math_sys\utils.inl" />
+    <None Include="physic_sys\physx\scene\dynamic_actor_physx.inl" />
+    <None Include="physic_sys\physx\utils_physx.inl" />
+    <None Include="physic_sys\scene\actor.inl" />
+    <None Include="physic_sys\scene\dynamic_actor.inl" />
+    <None Include="physic_sys\scene\scene.inl" />
+    <None Include="physic_sys\scene\static_actor.inl" />
+    <None Include="resource_sys\imports\imports.inl" />
+    <None Include="resource_sys\resources\resources_manager.inl" />
+    <None Include="resource_sys\resources\resource_handler.inl" />
+    <None Include="scene_sys\scene\lights.inl" />
+    <None Include="_sys\svn_revision.template" />
+    <None Include="_sys\templates.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\edit\effects\frame_consts.h" />
+    <ClInclude Include="..\..\..\edit\effects\lights.h" />
+    <ClInclude Include="..\..\..\edit\effects\samplers.h" />
+    <ClInclude Include="..\..\..\edit\effects\screen_quad_gs.h" />
+    <ClInclude Include="audio_sys\audio_codecs\flac\audio_codec_flac.h" />
+    <ClInclude Include="audio_sys\audio_codecs\i_audio_codec.h" />
+    <ClInclude Include="audio_sys\audio_codecs\ogg\audio_codec_ogg.h" />
+    <ClInclude Include="audio_sys\audio_codecs\wav\audio_codec_wav.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_data_info.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_data_stream.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_data_stream_notify.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_object_impl.h" />
+    <ClInclude Include="audio_sys\audio_device\context_render_params.h" />
+    <ClInclude Include="audio_sys\audio_device\listener_render_params.h" />
+    <ClInclude Include="audio_sys\audio_device\sound_render_params.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_sound_render_request.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_context_impl.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_device.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_listener_impl.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_resources.h" />
+    <ClInclude Include="audio_sys\audio_device\audio_sound_impl.h" />
+    <ClInclude Include="audio_sys\audio_device\resources\resource_sound_data.h" />
+    <ClInclude Include="audio_sys\audio_device\xaudio2\audio_device_xaudio2.h" />
+    <ClInclude Include="audio_sys\audio_device\xaudio2\lib_xaudio2.h" />
+    <ClInclude Include="audio_sys\audio_device\xaudio2\pch_xaudio2.h" />
+    <ClInclude Include="audio_sys\audio_device\xaudio2\sound_render_xaudio2.h" />
+    <ClInclude Include="audio_sys\audio_device\xaudio2\voice_callback_xaudio2.h" />
+    <ClInclude Include="audio_sys\audio_scene\audio_context.h" />
+    <ClInclude Include="audio_sys\audio_scene\audio_listener.h" />
+    <ClInclude Include="audio_sys\audio_scene\audio_scene.h" />
+    <ClInclude Include="audio_sys\audio_scene\audio_sound.h" />
+    <ClInclude Include="audio_sys\audio_sys.h" />
+    <ClInclude Include="audio_sys\audio_sys_init.h" />
+    <ClInclude Include="audio_sys\pch.h" />
+    <ClInclude Include="base_sys\base_sys.h" />
+    <ClInclude Include="base_sys\endian_swap.h" />
+    <ClInclude Include="base_sys\file_system\file_system.h" />
+    <ClInclude Include="base_sys\hash.h" />
+    <ClInclude Include="base_sys\memory\allocators\allocator.h" />
+    <ClInclude Include="base_sys\memory\allocators\incremental_allocator.h" />
+    <ClInclude Include="base_sys\memory\reusable_buffers.h" />
+    <ClInclude Include="base_sys\parser\base_parser_rules.h" />
+    <ClInclude Include="base_sys\parser\parser.h" />
+    <ClInclude Include="base_sys\parser\parser_input_stream.h" />
+    <ClInclude Include="base_sys\smart_ptr.h" />
+    <ClInclude Include="base_sys\streams\file_input_stream.h" />
+    <ClInclude Include="base_sys\streams\i_input_stream.h" />
+    <ClInclude Include="base_sys\streams\i_seekable_input_stream.h" />
+    <ClInclude Include="base_sys\streams\memory_seekable_input_stream.h" />
+    <ClInclude Include="base_sys\system_info.h" />
+    <ClInclude Include="base_sys\time\time.h" />
+    <ClInclude Include="base_sys\weak_ptr.h" />
+    <ClInclude Include="base_sys\xml\xml.h" />
+    <ClInclude Include="base_sys\xml\xml_editable.h" />
+    <ClInclude Include="base_sys\xml\xml_structs.h" />
+    <ClInclude Include="base_sys\xml\xml_text_reader.h" />
+    <ClInclude Include="base_sys\xml\xml_text_writer.h" />
+    <ClInclude Include="debug_sys\debug_sys.h" />
+    <ClInclude Include="debug_sys\output\console_output.h" />
+    <ClInclude Include="debug_sys\output\console_output_win32.h" />
+    <ClInclude Include="debug_sys\output\file_output.h" />
+    <ClInclude Include="debug_sys\output\file_output_win32.h" />
+    <ClInclude Include="debug_sys\output\outputs.h" />
+    <ClInclude Include="debug_sys\output\std_output.h" />
+    <ClInclude Include="debug_sys\profiler\profiler.h" />
+    <ClInclude Include="input_sys\dxinput8\input_dxinput8.h" />
+    <ClInclude Include="input_sys\dxinput8\input_utils_dxinput8.h" />
+    <ClInclude Include="input_sys\dxinput8\lib_dxinput8.h" />
+    <ClInclude Include="input_sys\dxinput8\pch_dxinput8.h" />
+    <ClInclude Include="input_sys\input_sys.h" />
+    <ClInclude Include="input_sys\input_sys_init.h" />
+    <ClInclude Include="input_sys\input_window_callback.h" />
+    <ClInclude Include="input_sys\key_codes.h" />
+    <ClInclude Include="input_sys\pch.h" />
+    <ClInclude Include="math_sys\collision\box_to_triangle.h" />
+    <ClInclude Include="math_sys\collision\collision.h" />
+    <ClInclude Include="math_sys\collision\collision_types.h" />
+    <ClInclude Include="math_sys\collision\elipsoid_to_triangle.h" />
+    <ClInclude Include="math_sys\collision\separating_axes.h" />
+    <ClInclude Include="math_sys\floats\float2.h" />
+    <ClInclude Include="math_sys\floats\float2x2.h" />
+    <ClInclude Include="math_sys\floats\float3.h" />
+    <ClInclude Include="math_sys\floats\float3x3.h" />
+    <ClInclude Include="math_sys\floats\float4.h" />
+    <ClInclude Include="math_sys\floats\float4x4.h" />
+    <ClInclude Include="math_sys\floats\float_constants.h" />
+    <ClInclude Include="math_sys\pch.h" />
+    <ClInclude Include="math_sys\plane.h" />
+    <ClInclude Include="math_sys\types.h" />
+    <ClInclude Include="math_sys\types_dbg.h" />
+    <ClInclude Include="math_sys\utils.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="physic_sys\device\device.h" />
+    <ClInclude Include="physic_sys\pch.h" />
+    <ClInclude Include="physic_sys\physic_sys.h" />
+    <ClInclude Include="physic_sys\physic_sys_init.h" />
+    <ClInclude Include="physic_sys\physx\device\device_physx.h" />
+    <ClInclude Include="physic_sys\physx\lib_physx.h" />
+    <ClInclude Include="physic_sys\physx\pch_physx.h" />
+    <ClInclude Include="physic_sys\physx\resources\resources_physx.h" />
+    <ClInclude Include="physic_sys\physx\scene\dynamic_actor_physx.h" />
+    <ClInclude Include="physic_sys\physx\scene\static_actor_physx.h" />
+    <ClInclude Include="physic_sys\physx\scene\scene_physx.h" />
+    <ClInclude Include="physic_sys\physx\utils_physx.h" />
+    <ClInclude Include="physic_sys\resources\resources.h" />
+    <ClInclude Include="physic_sys\resources\resource_collision.h" />
+    <ClInclude Include="physic_sys\scene\actor.h" />
+    <ClInclude Include="physic_sys\scene\collision_objects.h" />
+    <ClInclude Include="physic_sys\scene\collision_params.h" />
+    <ClInclude Include="physic_sys\scene\dynamic_actor.h" />
+    <ClInclude Include="physic_sys\scene\scene.h" />
+    <ClInclude Include="physic_sys\scene\static_actor.h" />
+    <ClInclude Include="render_sys\pch.h" />
+    <ClInclude Include="render_sys\render_device\dx11\constants_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\lib_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_cb_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_ib_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_input_layout_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_material_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_effect_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_structured_buffer_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_texture_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\resources\resource_vb_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\utils_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\pch_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\render_device_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\render_resources_dx11.h" />
+    <ClInclude Include="render_sys\render_device\dx11\render_window_dx11.h" />
+    <ClInclude Include="render_sys\render_device\render_device.h" />
+    <ClInclude Include="render_sys\render_device\render_resources.h" />
+    <ClInclude Include="render_sys\render_device\render_window.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_ib.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_material.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_effect.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_mesh.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_texture.h" />
+    <ClInclude Include="render_sys\render_device\resources\resource_vb.h" />
+    <ClInclude Include="render_sys\render_scene\render_2d_context.h" />
+    <ClInclude Include="render_sys\render_scene\render_3d_context.h" />
+    <ClInclude Include="render_sys\render_scene\render_camera.h" />
+    <ClInclude Include="render_sys\render_scene\render_lights.h" />
+    <ClInclude Include="render_sys\render_scene\render_scene.h" />
+    <ClInclude Include="render_sys\render_sys.h" />
+    <ClInclude Include="render_sys\render_sys_init.h" />
+    <ClInclude Include="render_sys\render_window_callback.h" />
+    <ClInclude Include="resource_sys\imports\export_pointers_table.h" />
+    <ClInclude Include="resource_sys\imports\importers\import_utils.h" />
+    <ClInclude Include="resource_sys\imports\importers\scene_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\prefabs_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\sound_data_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada\collada_mesh_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada\collada_parser.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada\collision_mesh_exporter.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada\mesh_exporter.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada_collision_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\collada_importer.h" />
+    <ClInclude Include="resource_sys\Imports\importers\effect_importer.h" />
+    <ClInclude Include="resource_sys\imports\importers\texture_importer.h" />
+    <ClInclude Include="resource_sys\Imports\imports.h" />
+    <ClInclude Include="resource_sys\package.h" />
+    <ClInclude Include="resource_sys\packages\packages_manager.h" />
+    <ClInclude Include="resource_sys\resource.h" />
+    <ClInclude Include="resource_sys\resources\handlers\collision_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\ib_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\scene_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\scene_prefabs_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\effect_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\sound_data_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\mesh_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\texture_handler.h" />
+    <ClInclude Include="resource_sys\resources\handlers\vb_handler.h" />
+    <ClInclude Include="resource_sys\resources\import_pointers_table.h" />
+    <ClInclude Include="resource_sys\resources\resources_manager.h" />
+    <ClInclude Include="resource_sys\resources\resource_handler.h" />
+    <ClInclude Include="resource_sys\resource_sys.h" />
+    <ClInclude Include="resource_sys\resource_types.h" />
+    <ClInclude Include="scene_sys\scene\lights.h" />
+    <ClInclude Include="scene_sys\scene\scene.h" />
+    <ClInclude Include="scene_sys\scene\scene_resource.h" />
+    <ClInclude Include="scene_sys\scene_prefabs\scene_prefabs.h" />
+    <ClInclude Include="scene_sys\scene_prefabs\scene_prefabs_resource.h" />
+    <ClInclude Include="scene_sys\scene_sys.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="_sys\assert.h" />
+    <ClInclude Include="_sys\assert_win32.h" />
+    <ClInclude Include="_sys\build.h" />
+    <ClInclude Include="_sys\build_check.h" />
+    <ClInclude Include="_sys\cfg.h" />
+    <ClInclude Include="_sys\pch.h" />
+    <ClInclude Include="_sys\strings.h" />
+    <ClInclude Include="_sys\templates.h" />
+    <ClInclude Include="_sys\types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alien_engine.cpp" />
+    <ClCompile Include="audio_sys\audio_codecs\flac\audio_codec_flac.cpp" />
+    <ClCompile Include="audio_sys\audio_codecs\ogg\audio_codec_ogg.cpp" />
+    <ClCompile Include="audio_sys\audio_codecs\wav\audio_codec_wav.cpp" />
+    <ClCompile Include="audio_sys\audio_device\audio_context_impl.cpp" />
+    <ClCompile Include="audio_sys\audio_device\audio_device.cpp" />
+    <ClCompile Include="audio_sys\audio_device\audio_listener_impl.cpp" />
+    <ClCompile Include="audio_sys\audio_device\audio_resources.cpp" />
+    <ClCompile Include="audio_sys\audio_device\audio_sound_impl.cpp" />
+    <ClCompile Include="audio_sys\audio_device\resources\resource_sound_data.cpp" />
+    <ClCompile Include="audio_sys\audio_device\xaudio2\audio_device_xaudio2.cpp" />
+    <ClCompile Include="audio_sys\audio_device\xaudio2\sound_render_xaudio2.cpp" />
+    <ClCompile Include="audio_sys\audio_device\xaudio2\voice_callback_xaudio2.cpp" />
+    <ClCompile Include="audio_sys\audio_scene\audio_context.cpp" />
+    <ClCompile Include="audio_sys\audio_scene\audio_listener.cpp" />
+    <ClCompile Include="audio_sys\audio_scene\audio_scene.cpp" />
+    <ClCompile Include="audio_sys\audio_scene\audio_sound.cpp" />
+    <ClCompile Include="audio_sys\audio_sys.cpp" />
+    <ClCompile Include="base_sys\base_sys.cpp" />
+    <ClCompile Include="base_sys\file_system\file_system.cpp" />
+    <ClCompile Include="base_sys\file_system\file_system_win32.cpp" />
+    <ClCompile Include="base_sys\memory\allocators\allocator.cpp" />
+    <ClCompile Include="base_sys\streams\file_input_stream.cpp" />
+    <ClCompile Include="base_sys\streams\memory_seekable_input_stream.cpp" />
+    <ClCompile Include="base_sys\system_info.cpp" />
+    <ClCompile Include="base_sys\time\time_win32.cpp" />
+    <ClCompile Include="base_sys\xml\xml_structs.cpp" />
+    <ClCompile Include="debug_sys\debug_sys.cpp" />
+    <ClCompile Include="debug_sys\output\console_output.cpp" />
+    <ClCompile Include="debug_sys\output\console_output_win32.cpp" />
+    <ClCompile Include="debug_sys\output\file_output.cpp" />
+    <ClCompile Include="debug_sys\output\file_output_win32.cpp" />
+    <ClCompile Include="debug_sys\output\outputs.cpp" />
+    <ClCompile Include="debug_sys\output\outputs_win32.cpp" />
+    <ClCompile Include="debug_sys\output\std_output.cpp" />
+    <ClCompile Include="debug_sys\profiler\profiler.cpp" />
+    <ClCompile Include="input_sys\dxinput8\input_dxinput8.cpp" />
+    <ClCompile Include="input_sys\input_sys.cpp" />
+    <ClCompile Include="math_sys\floats\float4x4.cpp" />
+    <ClCompile Include="math_sys\types.cpp" />
+    <ClCompile Include="math_sys\types_dbg.cpp" />
+    <ClCompile Include="math_sys\utils.cpp" />
+    <ClCompile Include="physic_sys\device\device.cpp" />
+    <ClCompile Include="physic_sys\physic_sys.cpp" />
+    <ClCompile Include="physic_sys\physx\device\device_physx.cpp" />
+    <ClCompile Include="physic_sys\physx\resources\resources_physx.cpp" />
+    <ClCompile Include="physic_sys\physx\scene\dynamic_actor_physx.cpp" />
+    <ClCompile Include="physic_sys\physx\scene\static_actor_physx.cpp" />
+    <ClCompile Include="physic_sys\physx\scene\scene_physx.cpp" />
+    <ClCompile Include="physic_sys\physx\utils_physx.cpp" />
+    <ClCompile Include="physic_sys\resources\resources.cpp" />
+    <ClCompile Include="physic_sys\scene\actor.cpp" />
+    <ClCompile Include="physic_sys\scene\dynamic_actor.cpp" />
+    <ClCompile Include="physic_sys\scene\pscene.cpp" />
+    <ClCompile Include="physic_sys\scene\static_actor.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\render_device_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\render_resources_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\render_window_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_cb_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_ib_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_input_layout_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_material_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_effect_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_structured_buffer_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_texture_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\resources\resource_vb_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\dx11\utils_dx11.cpp" />
+    <ClCompile Include="render_sys\render_device\render_device.cpp" />
+    <ClCompile Include="render_sys\render_device\render_resources.cpp" />
+    <ClCompile Include="render_sys\render_device\render_window.cpp" />
+    <ClCompile Include="render_sys\render_device\resources\resource_ib.cpp" />
+    <ClCompile Include="render_sys\render_device\resources\resource_material.cpp" />
+    <ClCompile Include="render_sys\render_device\resources\resource_effect.cpp" />
+    <ClCompile Include="render_sys\render_device\resources\resource_texture.cpp" />
+    <ClCompile Include="render_sys\render_device\resources\resource_vb.cpp" />
+    <ClCompile Include="render_sys\render_scene\render_2d_context.cpp" />
+    <ClCompile Include="render_sys\render_scene\render_3d_context.cpp" />
+    <ClCompile Include="render_sys\render_scene\render_camera.cpp" />
+    <ClCompile Include="render_sys\render_scene\render_lights.cpp" />
+    <ClCompile Include="render_sys\render_scene\render_scene.cpp" />
+    <ClCompile Include="render_sys\render_sys.cpp" />
+    <ClCompile Include="render_sys\render_window_callback.cpp" />
+    <ClCompile Include="resource_sys\imports\export_pointers_table.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\import_utils.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\scene_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\prefabs_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\sound_data_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada\collada_mesh_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada\collada_parser.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada\collision_mesh_exporter.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada\mesh_exporter.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada_collision_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\collada_importer.cpp" />
+    <ClCompile Include="resource_sys\Imports\importers\effect_importer.cpp" />
+    <ClCompile Include="resource_sys\imports\importers\texture_importer.cpp" />
+    <ClCompile Include="resource_sys\Imports\imports.cpp" />
+    <ClCompile Include="resource_sys\packages\packages_manager.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\collision_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\ib_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\scene_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\scene_prefabs_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\effect_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\sound_data_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\mesh_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\texture_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\handlers\vb_handler.cpp" />
+    <ClCompile Include="resource_sys\resources\import_pointers_table.cpp" />
+    <ClCompile Include="resource_sys\resources\resources_manager.cpp" />
+    <ClCompile Include="resource_sys\resources\resource_handler.cpp" />
+    <ClCompile Include="resource_sys\resource_sys.cpp" />
+    <ClCompile Include="scene_sys\scene\scene.cpp" />
+    <ClCompile Include="scene_sys\scene_prefabs\scene_prefabs.cpp" />
+    <ClCompile Include="scene_sys\scene_sys.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="_sys\assert_win32.cpp" />
+    <ClCompile Include="_sys\build.cpp" />
+    <ClCompile Include="_sys\strings.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

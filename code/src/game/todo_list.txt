@@ -1,0 +1,13 @@
+* CreateInputLayout refactorization
+@ Make parser to use real streams(istream) not just memory block in the range begin() < end()
+@ Fix profile block on develop and debug platform
++ Unicode document and rules
++ 64bit document and rules (file system)
+@ Check @ Link fix be ignoring libcmt.lib, should no be included with debug build
++ global/tls stringstream, clear(ss = stringstream(), ss.str().clear())
++ xml -> move,copy, move_childs, copy_childs
+
+@ check window destructors calls when editor is closed and when game is quited by input.quit() call
+@ check multiple m_WndProc calls
+
++ Make pixel perfect object selection :-)

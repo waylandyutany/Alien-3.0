@@ -1,0 +1,18 @@
+<root>
+   <Window X="1053" Y="0" Width="364" Height="779"/>
+   <Resource_Panel PackageSource="tv_buildings"/>
+   <Scene_Panel>
+      <DuplicationDialogConfig True="1" Duplications="1" Left="664" Right="1023" Top="488" Bottom="714">
+         <pos x="-27.000000" y="0.000000" z="0.000000"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </DuplicationDialogConfig>
+   </Scene_Panel>
+   <SceneInstances_Panel>
+      <DuplicationDialogConfig True="1" Duplications="2" Left="689" Right="1048" Top="480" Bottom="706">
+         <pos x="0.000000" y="2.900000" z="0.000000"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </DuplicationDialogConfig>
+   </SceneInstances_Panel>
+</root>

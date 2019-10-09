@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="alien_editor.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="cfg_editor.h" />
+    <ClInclude Include="lib_editor.h" />
+    <ClInclude Include="windows_sys\base\menu.h">
+      <Filter>windows_sys\base</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\window.h">
+      <Filter>windows_sys\base</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\lib_win32.h">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\menu_win32.h">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\pch_win32.h">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\window_win32.h">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\layout.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\structs.h">
+      <Filter>windows_sys\base</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\widget.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\vbox_layout.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\hbox_layout.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\main_window.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\buttons.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\grid_layout.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\box_layout.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\layouts\layout_item.h">
+      <Filter>windows_sys\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\group_box.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\static_text.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\combo_box.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\tree_view.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\combo_box_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\combo_box_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\list_view_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\tree_view_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\list_view_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\tree_view_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\edit_box.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="main\main_window.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\panels\base_panel.h">
+      <Filter>main\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\window_constants.h">
+      <Filter>windows_sys\base</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\message_box.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\message_box_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\message_box_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\base_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="main\utils\tree_node_t.h">
+      <Filter>main\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="main\clip_board.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\properties\prop_container.h">
+      <Filter>main\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="main\properties\prop_panel_transformation.h">
+      <Filter>main\properties</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\edit_box_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\edit_box_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\wdialog.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\widgets\number_spins.h">
+      <Filter>windows_sys\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\number_spins_ctrl.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.h">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_sys\base\controls\number_spins_type.h">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="main\gizmo.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\dialogs\duplication_dialog.h">
+      <Filter>main\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="main\panels\prefabs_panel\prefabs_panel.h">
+      <Filter>main\panels\prefabs_panel</Filter>
+    </ClInclude>
+    <ClInclude Include="main\panels\scene_panel\scene_panel.h">
+      <Filter>main\panels\scene_panel</Filter>
+    </ClInclude>
+    <ClInclude Include="main\panels\resource_panel\resource_panel.h">
+      <Filter>main\panels\resource_panel</Filter>
+    </ClInclude>
+    <ClInclude Include="main\panels\profile_panel\profile_panel.h">
+      <Filter>main\panels\profile_panel</Filter>
+    </ClInclude>
+    <ClInclude Include="main\utils\tree_nodes_deleter.h">
+      <Filter>main\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="main\utils\node_names.h">
+      <Filter>main\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="alien_editor.cpp" />
+    <ClCompile Include="cfg_editor.cpp" />
+    <ClCompile Include="windows_sys\base\menu.cpp">
+      <Filter>windows_sys\base</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\window.cpp">
+      <Filter>windows_sys\base</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\menu_win32.cpp">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\window_win32.cpp">
+      <Filter>windows_sys\base\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\layout.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\widget.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\vbox_layout.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\hbox_layout.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\main_window2.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\buttons.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\grid_layout.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\box_layout.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\layouts\layout_item.cpp">
+      <Filter>windows_sys\layouts</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\group_box.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\static_text.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\combo_box.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\tree_view.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\combo_box_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\combo_box_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\list_view_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\tree_view_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\list_view_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\tree_view_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main_window.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\panels\base_panel.cpp">
+      <Filter>main\panels</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\message_box.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\message_box_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\message_box_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\base_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\edit_box.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="main\clip_board.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\properties\prop_container.cpp">
+      <Filter>main\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="main\properties\prop_panel_transformation.cpp">
+      <Filter>main\properties</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\edit_box_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\edit_box_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\wdialog.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\widgets\number_spins.cpp">
+      <Filter>windows_sys\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\number_spins_ctrl.cpp">
+      <Filter>windows_sys\base\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.cpp">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="main\gizmo.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\dialogs\duplication_dialog.cpp">
+      <Filter>main\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="main\panels\prefabs_panel\prefabs_panel.cpp">
+      <Filter>main\panels\prefabs_panel</Filter>
+    </ClCompile>
+    <ClCompile Include="main\panels\scene_panel\scene_panel.cpp">
+      <Filter>main\panels\scene_panel</Filter>
+    </ClCompile>
+    <ClCompile Include="main\panels\resource_panel\resource_panel.cpp">
+      <Filter>main\panels\resource_panel</Filter>
+    </ClCompile>
+    <ClCompile Include="main\panels\profile_panel\profile_panel.cpp">
+      <Filter>main\panels\profile_panel</Filter>
+    </ClCompile>
+    <ClCompile Include="main\utils\node_names.cpp">
+      <Filter>main\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{65117d45-00a3-4801-b1e8-ba2dca8a713d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\panels">
+      <UniqueIdentifier>{b51aa1f6-3b0b-4528-8669-bf51192969e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys">
+      <UniqueIdentifier>{0eb60323-e451-45cc-ae6c-2759422e1187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\base">
+      <UniqueIdentifier>{c155ad60-069a-49da-9935-7c01cb8adaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\base\win32">
+      <UniqueIdentifier>{3a209da0-8e2f-4111-a442-65ff3b290363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\base\win32\controls">
+      <UniqueIdentifier>{da160b13-399a-4f97-b387-eb5e79c3faed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\base\controls">
+      <UniqueIdentifier>{dc90eeab-c2f0-4111-9e78-a486ba10dc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\layouts">
+      <UniqueIdentifier>{b8de7ee7-281d-465a-a50f-d14163e4f7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_sys\widgets">
+      <UniqueIdentifier>{da219f71-8f8c-4ac7-ad4f-67d21d75e474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\utils">
+      <UniqueIdentifier>{7347d2c6-96b9-4253-811a-d6cfd0b9d4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\properties">
+      <UniqueIdentifier>{5ffd8716-738c-458c-ba3c-f4119c2aa3c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\dialogs">
+      <UniqueIdentifier>{2acc175d-6c6d-4f3c-92b0-ec061e6f6b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\panels\prefabs_panel">
+      <UniqueIdentifier>{2a8ada4a-16cb-4509-ada7-2146137e5fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\panels\scene_panel">
+      <UniqueIdentifier>{8fb2c764-875e-4507-8875-d358e66707ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\panels\profile_panel">
+      <UniqueIdentifier>{32dfc5f3-ac4d-441c-8ba8-c47e0377f26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\panels\resource_panel">
+      <UniqueIdentifier>{dd364f60-4855-4366-986a-2966d5a7abb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="windows_sys\base\window.inl">
+      <Filter>windows_sys\base</Filter>
+    </None>
+    <None Include="windows_sys\base\win32\window_win32.inl">
+      <Filter>windows_sys\base\win32</Filter>
+    </None>
+    <None Include="windows_sys\base\structs.inl">
+      <Filter>windows_sys\base</Filter>
+    </None>
+    <None Include="main\utils\tree_node_t.inl">
+      <Filter>main\utils</Filter>
+    </None>
+    <None Include="windows_sys\widgets\number_spins.inl">
+      <Filter>windows_sys\widgets</Filter>
+    </None>
+    <None Include="windows_sys\base\controls\number_spins_ctrl.inl">
+      <Filter>windows_sys\base\controls</Filter>
+    </None>
+    <None Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.inl">
+      <Filter>windows_sys\base\win32\controls</Filter>
+    </None>
+    <None Include="main\gizmo.inl">
+      <Filter>main</Filter>
+    </None>
+    <None Include="windows_sys\base\controls\tree_view_ctrl.inl">
+      <Filter>windows_sys\base\controls</Filter>
+    </None>
+    <None Include="windows_sys\widgets\tree_view.inl">
+      <Filter>windows_sys\widgets</Filter>
+    </None>
+    <None Include="main\utils\tree_nodes_deleter.inl">
+      <Filter>main\utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>

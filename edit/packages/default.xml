@@ -1,0 +1,54 @@
+<root>
+   <dir name="sounds">
+      <src name="breath" type="sndr">
+         <path path="/edit/sounds/package/breath.ogg"/>
+      </src>
+      <src name="forest" type="sndr">
+         <path path="/edit/sounds/package/forest.ogg"/>
+      </src>
+   </dir>
+   <dir name="fonts">
+      <src name="font0" type="txtr">
+         <path path="/edit/textures/fonts/font0.dds"/>
+      </src>
+      <src name="font1" type="txtr">
+         <path path="/edit/textures/fonts/font1.dds"/>
+      </src>
+   </dir>
+   <dir name="effects">
+      <src name="solid_dn_3d" type="effe">
+         <path path="/edit/effects/solid_dn_3d.fx"/>
+      </src>
+      <src name="simple_2d" type="effe">
+         <path path="/edit/effects/simple_2d.fx"/>
+      </src>
+      <src name="simple_3d_solid" type="effe">
+         <path path="/edit/effects/simple_3d_solid.fx"/>
+      </src>
+      <src name="simple_3d_wired" type="effe">
+         <path path="/edit/effects/simple_3d_wired.fx"/>
+      </src>
+      <src name="dfr_compose" type="effe">
+         <path path="/edit/effects/dfr_compose.fx"/>
+      </src>
+      <src name="dfr_lighting" type="effe">
+         <path path="/edit/effects/dfr_lighting.fx"/>
+      </src>
+      <src name="stencil_shadows" type="effe">
+         <path path="/edit/effects/stencil_shadows.fx"/>
+      </src>
+      <src name="shadow_map" type="effe">
+         <path path="/edit/effects/shadow_map.fx"/>
+      </src>
+   </dir>
+   <dir name="materials">
+      <src name="ripstop" type="txtr">
+         <path path="/edit/textures/materials/ripstop.dds"/>
+      </src>
+   </dir>
+   <dir name="models">
+      <src name="default" type="mesh">
+         <path path="/edit/3d_models/default/fbx/default.dae"/>
+      </src>
+   </dir>
+</root>

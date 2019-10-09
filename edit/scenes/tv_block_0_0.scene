@@ -1,0 +1,262 @@
+<root>
+   <node name="bytovka_1decembra_8p_0" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="6.500000" y="13.400000" z="15.400000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_1decembra_8p_1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="-28.299999" y="13.400000" z="22.400000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="sandbox_53x53_0" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/sandbox_53x53.prfb">
+      <pos x="36.540001" y="0.200000" z="44.480000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="sandbox_53x53_1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/sandbox_53x53.prfb">
+      <pos x="35.139999" y="0.200000" z="73.559998"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="sandbox_53x53_2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/sandbox_53x53.prfb">
+      <pos x="36.840000" y="0.200000" z="79.959999"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="sandbox_53x53_4" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/sandbox_53x53.prfb">
+      <pos x="24.250000" y="0.200000" z="59.959999"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_1decembra_8p_2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="-59.599998" y="13.400000" z="55.200001"/>
+      <rot x="0.000000" y="270.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_1decembra_8p_3" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="-59.599998" y="13.400000" z="90.000000"/>
+      <rot x="0.000000" y="270.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_1decembra_8p_4" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="-59.599998" y="13.400000" z="124.800003"/>
+      <rot x="0.000000" y="270.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_1decembra_8p_5" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_1decembra_8p.prfb">
+      <pos x="-59.599998" y="13.400000" z="159.600006"/>
+      <rot x="0.000000" y="270.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_0" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos y="13.400000" x="57.811501" z="13.847100"/>
+      <rot y="3.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="65.160004" y="13.400000" z="43.669998"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="72.508904" y="13.400000" z="73.489998"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_3" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="79.858002" y="13.400000" z="103.309998"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_04" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="87.209999" y="13.400000" z="133.130005"/>
+      <rot x="0.000000" y="3.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="kotolna_1decembra" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/kotolna_1decembra.prfb">
+      <pos z="119.570000" y="8.420000" x="9.190700"/>
+   </node>
+   <node name="trafo_stanica_1decembra_00" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/trafo_stanica_1decembra.prfb">
+      <pos z="41.060001" y="2.650000" x="26.149000"/>
+   </node>
+   <node name="garage_type_0_0" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-16.100000" y="1.330000" z="132.699997"/>
+   </node>
+   <node name="garage_type_0_1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="133.000000"/>
+      <rot y="-180.000000"/>
+   </node>
+   <node name="garage_type_0_0_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-16.100000" y="1.330000" z="136.300003"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_0_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_2.prfb">
+      <pos x="-16.100000" y="1.330000" z="140.000000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_0_d3" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_2.prfb">
+      <pos x="-16.100000" y="1.330000" z="143.699997"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_0_d4" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_1.prfb">
+      <pos x="-16.100000" y="1.330000" z="147.399994"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_0_d5" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_1.prfb">
+      <pos x="-16.100000" y="1.330000" z="151.100006"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_1_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="136.699997"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_1_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="140.399994"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_1_d3" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="144.100006"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_1_d4" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="147.800003"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_1_d5" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="-9.100000" y="1.330000" z="151.500000"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <node name="garage_type_0_2_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+         <pos x="10.500000" y="1.300000" z="133.000000"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+      <node name="garage_type_0_2_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+         <pos x="10.500000" y="1.300000" z="133.000000"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+      <node name="garage_type_0_2_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+         <pos x="4.500000" y="1.300000" z="136.600006"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+      <node name="garage_type_0_2_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+         <pos x="4.500000" y="1.300000" z="140.199997"/>
+         <rot x="0.000000" y="0.000000" z="0.000000"/>
+         <scale x="1.000000" y="1.000000" z="1.000000"/>
+      </node>
+   </node>
+   <node name="garage_type_0_2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="4.500000" y="1.330000" z="133.000000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_3" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="11.106000" y="1.330000" z="133.000000"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_2_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="4.500000" y="1.330000" z="136.600006"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_2_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="4.500000" y="1.330000" z="140.200012"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_3_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="11.106000" y="1.330000" z="136.600006"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_3_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="11.106000" y="1.330000" z="140.200012"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_4" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="31.406000" y="1.330000" z="133.000000"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_5" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="24.606001" y="1.330000" z="133.000000"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_4_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="31.406000" y="1.330000" z="136.600006"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_4_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="31.406000" y="1.330000" z="140.200012"/>
+      <rot x="0.000000" y="-180.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_5_d1" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="24.606001" y="1.330000" z="136.600006"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="garage_type_0_5_d2" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/garage_type_0.prfb">
+      <pos x="24.606001" y="1.330000" z="140.199997"/>
+      <rot x="0.000000" y="0.000000" z="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+   </node>
+   <node name="tv_ground_0_0" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/tv_ground_0_0.prfb">
+      <pos z="129.301895" x="74.397003" y="1.420000"/>
+      <rot y="0.000000"/>
+   </node>
+   <node name="bytovka_3p_1e" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_1e.prfb">
+      <pos x="24.003201" y="6.050000" z="171.830002"/>
+      <rot y="-104.000000"/>
+   </node>
+   <node name="bytovka_3p_2e" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_2e.prfb">
+      <pos x="62.252102" y="6.050000" z="265.820007"/>
+      <rot y="-90.000000"/>
+   </node>
+   <node name="bytovka_3p_3e" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_3e.prfb">
+      <pos x="37.797001" y="6.050000" z="227.139999"/>
+      <rot y="-104.000000"/>
+   </node>
+   <node name="bytovka_3p_garages" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_garages.prfb">
+      <pos x="58.039902" y="6.080000" z="185.504395"/>
+      <rot y="-104.000000"/>
+   </node>
+   <node name="bytovka_3p_L3e" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_L3e.prfb">
+      <pos x="123.881401" y="6.070000" z="269.198792"/>
+      <rot y="-90.000000"/>
+   </node>
+   <node name="bytovka_3p_l2e" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_3p_l2e.prfb">
+      <pos x="98.870499" y="6.190000" z="212.424103"/>
+      <rot y="-104.000000"/>
+   </node>
+   <node name="trafo_stanica_1decembra_01" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/trafo_stanica_1decembra.prfb">
+      <pos x="38.860001" y="2.500000" z="266.431610"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_05" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="-56.419998" y="13.400000" z="196.399994"/>
+      <rot y="3.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_06" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="-49.070000" y="13.400000" z="226.220001"/>
+      <rot y="3.000000"/>
+   </node>
+   <node name="bytovka_berehovska_8p2_07" type="prfb" path="tv_buildings/scene/tv_buildings.pfbs/bytovka_berehovska_8p2.prfb">
+      <pos x="-41.720001" y="13.400000" z="256.049988"/>
+      <rot y="3.000000"/>
+   </node>
+</root>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="entities\entities.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\player\player.cpp">
+      <Filter>entities\player</Filter>
+    </ClCompile>
+    <ClCompile Include="init\engine_init.cpp">
+      <Filter>init</Filter>
+    </ClCompile>
+    <ClCompile Include="init\game_init.cpp">
+      <Filter>init</Filter>
+    </ClCompile>
+    <ClCompile Include="init\alien_game.cpp" />
+    <ClCompile Include="entities\hud\hud.cpp">
+      <Filter>entities\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="init\editor_init.cpp">
+      <Filter>init</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\dynobject\dyn_object.cpp">
+      <Filter>entities\dynobject</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\projectiles\projectile.cpp">
+      <Filter>entities\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="entities\entity.cpp">
+      <Filter>entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="entities\entities.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\entity.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\player\player.h">
+      <Filter>entities\player</Filter>
+    </ClInclude>
+    <ClInclude Include="init\engine_init.h">
+      <Filter>init</Filter>
+    </ClInclude>
+    <ClInclude Include="init\game_init.h">
+      <Filter>init</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\hud\hud.h">
+      <Filter>entities\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="init\editor_init.h">
+      <Filter>init</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\dynobject\dyn_object.h">
+      <Filter>entities\dynobject</Filter>
+    </ClInclude>
+    <ClInclude Include="entities\projectiles\projectile.h">
+      <Filter>entities\projectiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="todo_list.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="entities">
+      <UniqueIdentifier>{01f368dd-0824-4706-97d2-246355553b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\player">
+      <UniqueIdentifier>{86d61327-18fb-403d-afac-2614b285d11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\hud">
+      <UniqueIdentifier>{3f9fcbcc-25c8-43c0-b20b-cc26d963cd04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="init">
+      <UniqueIdentifier>{e79eb3cb-9710-444d-9dba-441a38dc3a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\dynobject">
+      <UniqueIdentifier>{88026377-c0a2-4eb3-aa89-fabfa6ac4602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\projectiles">
+      <UniqueIdentifier>{1e5f6c02-1f88-4d95-aae5-b80c41251b63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

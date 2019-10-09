@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|Win32">
+      <Configuration>Develop</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Develop|x64">
+      <Configuration>Develop</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9795F4A5-ABFF-4BEA-AD4E-F095443DE7EA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>alien_editor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <OutDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win32</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <IntDir>$(SolutionDir)..\..\tmp\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>G:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(SolutionDir)../3rd/audio_codecs/flac-1.2.1/include/;$(SolutionDir)../3rd/audio_codecs/libvorbis-1.3.2/include/;$(SolutionDir)../3rd/audio_codecs/libogg-1.3.0/include;Y:\Projects\alien\code\src\3rd\physx-3.x\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);Y:\Projects\alien\code\src\3rd\physx-3.x\lib\win64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);AE_DEBUG</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;AE_DEBUG;AE_PLATFORM_WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions);AE_DEBUG</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);AE_RELEASE</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;AE_PLATFORM_WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_RELEASE;AE_PLATFORM_WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions);AE_RELEASE</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;AE_DEVELOP;AE_PLATFORM_WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>../engine/_sys/build.h;../engine/_sys/cfg.h;cfg_editor.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <OutputFile>$(SolutionDir)..\..\out\$(Platform)\$(TargetName)_$(Configuration)_$(Platform)$(TargetExt)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="main\gizmo.inl" />
+    <None Include="main\utils\tree_nodes_deleter.inl" />
+    <None Include="main\utils\tree_node_t.inl" />
+    <None Include="windows_sys\base\controls\number_spins_ctrl.inl" />
+    <None Include="windows_sys\base\controls\tree_view_ctrl.inl" />
+    <None Include="windows_sys\base\structs.inl" />
+    <None Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.inl" />
+    <None Include="windows_sys\base\win32\window_win32.inl" />
+    <None Include="windows_sys\base\window.inl" />
+    <None Include="windows_sys\widgets\number_spins.inl" />
+    <None Include="windows_sys\widgets\tree_view.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alien_editor.h" />
+    <ClInclude Include="cfg_editor.h" />
+    <ClInclude Include="lib_editor.h" />
+    <ClInclude Include="main\clip_board.h" />
+    <ClInclude Include="main\dialogs\duplication_dialog.h" />
+    <ClInclude Include="main\gizmo.h" />
+    <ClInclude Include="main\main_window.h" />
+    <ClInclude Include="main\panels\base_panel.h" />
+    <ClInclude Include="main\panels\prefabs_panel\prefabs_panel.h" />
+    <ClInclude Include="main\panels\profile_panel\profile_panel.h" />
+    <ClInclude Include="main\panels\resource_panel\resource_panel.h" />
+    <ClInclude Include="main\panels\scene_panel\scene_panel.h" />
+    <ClInclude Include="main\properties\prop_container.h" />
+    <ClInclude Include="main\properties\prop_panel_transformation.h" />
+    <ClInclude Include="main\utils\node_names.h" />
+    <ClInclude Include="main\utils\tree_nodes_deleter.h" />
+    <ClInclude Include="main\utils\tree_node_t.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="windows_sys\base\controls\combo_box_ctrl.h" />
+    <ClInclude Include="windows_sys\base\controls\edit_box_ctrl.h" />
+    <ClInclude Include="windows_sys\base\controls\list_view_ctrl.h" />
+    <ClInclude Include="windows_sys\base\controls\message_box_ctrl.h" />
+    <ClInclude Include="windows_sys\base\controls\number_spins_ctrl.h" />
+    <ClInclude Include="windows_sys\base\controls\number_spins_type.h" />
+    <ClInclude Include="windows_sys\base\controls\tree_view_ctrl.h" />
+    <ClInclude Include="windows_sys\base\menu.h" />
+    <ClInclude Include="windows_sys\base\structs.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\base_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\combo_box_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\edit_box_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\list_view_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\message_box_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\controls\tree_view_ctrl_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\lib_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\menu_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\pch_win32.h" />
+    <ClInclude Include="windows_sys\base\win32\window_win32.h" />
+    <ClInclude Include="windows_sys\base\window.h" />
+    <ClInclude Include="windows_sys\base\window_constants.h" />
+    <ClInclude Include="windows_sys\layouts\box_layout.h" />
+    <ClInclude Include="windows_sys\layouts\grid_layout.h" />
+    <ClInclude Include="windows_sys\layouts\hbox_layout.h" />
+    <ClInclude Include="windows_sys\layouts\layout.h" />
+    <ClInclude Include="windows_sys\layouts\layout_item.h" />
+    <ClInclude Include="windows_sys\layouts\vbox_layout.h" />
+    <ClInclude Include="windows_sys\widgets\buttons.h" />
+    <ClInclude Include="windows_sys\widgets\combo_box.h" />
+    <ClInclude Include="windows_sys\widgets\edit_box.h" />
+    <ClInclude Include="windows_sys\widgets\group_box.h" />
+    <ClInclude Include="windows_sys\widgets\main_window.h" />
+    <ClInclude Include="windows_sys\widgets\message_box.h" />
+    <ClInclude Include="windows_sys\widgets\number_spins.h" />
+    <ClInclude Include="windows_sys\widgets\static_text.h" />
+    <ClInclude Include="windows_sys\widgets\tree_view.h" />
+    <ClInclude Include="windows_sys\widgets\wdialog.h" />
+    <ClInclude Include="windows_sys\widgets\widget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="alien_editor.cpp" />
+    <ClCompile Include="cfg_editor.cpp" />
+    <ClCompile Include="main\clip_board.cpp" />
+    <ClCompile Include="main\dialogs\duplication_dialog.cpp" />
+    <ClCompile Include="main\gizmo.cpp" />
+    <ClCompile Include="main\main_window.cpp" />
+    <ClCompile Include="main\panels\base_panel.cpp" />
+    <ClCompile Include="main\panels\prefabs_panel\prefabs_panel.cpp" />
+    <ClCompile Include="main\panels\profile_panel\profile_panel.cpp" />
+    <ClCompile Include="main\panels\resource_panel\resource_panel.cpp" />
+    <ClCompile Include="main\panels\scene_panel\scene_panel.cpp" />
+    <ClCompile Include="main\properties\prop_container.cpp" />
+    <ClCompile Include="main\properties\prop_panel_transformation.cpp" />
+    <ClCompile Include="main\utils\node_names.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="windows_sys\base\controls\combo_box_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\controls\edit_box_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\controls\list_view_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\controls\message_box_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\controls\number_spins_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\controls\tree_view_ctrl.cpp" />
+    <ClCompile Include="windows_sys\base\menu.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\base_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\combo_box_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\edit_box_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\list_view_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\message_box_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\number_spins_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\controls\tree_view_ctrl_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\menu_win32.cpp" />
+    <ClCompile Include="windows_sys\base\win32\window_win32.cpp" />
+    <ClCompile Include="windows_sys\base\window.cpp" />
+    <ClCompile Include="windows_sys\layouts\box_layout.cpp" />
+    <ClCompile Include="windows_sys\layouts\grid_layout.cpp" />
+    <ClCompile Include="windows_sys\layouts\hbox_layout.cpp" />
+    <ClCompile Include="windows_sys\layouts\layout.cpp" />
+    <ClCompile Include="windows_sys\layouts\layout_item.cpp" />
+    <ClCompile Include="windows_sys\layouts\vbox_layout.cpp" />
+    <ClCompile Include="windows_sys\widgets\buttons.cpp" />
+    <ClCompile Include="windows_sys\widgets\combo_box.cpp" />
+    <ClCompile Include="windows_sys\widgets\edit_box.cpp" />
+    <ClCompile Include="windows_sys\widgets\group_box.cpp" />
+    <ClCompile Include="windows_sys\widgets\main_window2.cpp" />
+    <ClCompile Include="windows_sys\widgets\message_box.cpp" />
+    <ClCompile Include="windows_sys\widgets\number_spins.cpp" />
+    <ClCompile Include="windows_sys\widgets\static_text.cpp" />
+    <ClCompile Include="windows_sys\widgets\tree_view.cpp" />
+    <ClCompile Include="windows_sys\widgets\wdialog.cpp" />
+    <ClCompile Include="windows_sys\widgets\widget.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
